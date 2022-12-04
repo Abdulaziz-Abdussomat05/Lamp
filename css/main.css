@@ -1,0 +1,63 @@
+
+body {
+  background-color: crimson;
+}
+.lamp {
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+margin-top: 150px;
+}
+
+.lamp .span1 {
+  width: 250px;
+  height: 200px;
+  color: red;
+  border: 2px solid black;
+  border-top-left-radius: 300%;
+  border-top-right-radius: 300%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.span2 {
+  width: 200px;
+  height: 50px;
+  border: 4px solid rgb(6, 6, 6);
+  color: black;
+  position: absolute;
+  top: 100.1%;
+  right: 42.1%;
+  background-color: grey;
+}
+
+.btn {
+  
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  
+
+}
+
+.btn button {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.show {
+  background-color: yellow;
+  transition: 1s all ease;
+}
+
+.hide {
+  background-color: white;
+  transition: 1s all ease;
+}
